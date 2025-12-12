@@ -1,0 +1,22 @@
+# Archivos compilados (Basura)
+target/
+*.class
+
+# Logs
+*.log
+
+# Archivos de IDEs (No subir nunca)
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Secretos (Opcional: Si quieres proteger tu config local)
+# application.properties
