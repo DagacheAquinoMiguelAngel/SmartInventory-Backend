@@ -1,5 +1,5 @@
-CREATE DATABASE smart_inventory_db;
-USE smart_inventory_db;
+--CREATE DATABASE smart_inventory_db;
+--USE smart_inventory_db;
 
 -- 1. Tabla de Usuarios (Espejo de Firebase)
 -- El 'firebase_uid' es el link clave con la autenticación de Google/Firebase
