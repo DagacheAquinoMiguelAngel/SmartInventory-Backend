@@ -56,4 +56,9 @@ public class MovementServiceImpl implements MovementService {
     public List<Movement> getMovementsByProductId(Long productId) {
         return movementRepository.findByProductIdOrderByMovementDateDesc(productId);
     }
+
+     @Override
+	public List<Movement> getAllMovements() {
+		return movementRepository.findAll();
+	}
 }
