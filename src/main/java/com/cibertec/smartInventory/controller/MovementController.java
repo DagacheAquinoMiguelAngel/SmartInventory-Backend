@@ -34,4 +34,8 @@ public class MovementController {
     public ResponseEntity<List<Movement>> getHistory(@PathVariable Long productId) {
         return ResponseEntity.ok(movementService.getMovementsByProductId(productId));
     }
+        @GetMapping
+    public ResponseEntity<List<Movement>> getAllMovement() {
+    	return ResponseEntity.ok(movementService.getAllMovements());
+    }
 }
